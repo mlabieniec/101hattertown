@@ -1,0 +1,19 @@
+{
+  "name": "101hattertown",
+  "version": "1.0.0",
+  "description": "Website for 101 Hattertown Road in Newtown",
+  "main": "assets/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files 'index.html,assets/*,assets/css/*.css'"
+  },
+  "author": "Michael Labieniec",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "dependencies": {
+    "panolens": "^0.11.0",
+    "three": "^0.122.0"
+  }
+}

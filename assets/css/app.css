@@ -249,6 +249,14 @@
     margin-top: 1.5rem;
   }
 
+  .photos-cta {
+    text-align: center;
+  }
+
+  footer .navbar-item {
+    float: none;
+  }
+
   @media (max-width: 400px) {
     .thumb {
         width: 100%;
